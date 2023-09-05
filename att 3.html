@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Bootstrap -->
+    <title>Site em Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZtcqVCspeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <style>
+
+        .noBorder {
+            border: none !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        .container .row div {
+            border: 5px solid white;
+        }
+
+        .vermelho {
+            background-color: red !important;
+            height: 153px;
+        }
+
+        .ciano {
+            background-color: cyan !important;
+            height: 156px;
+        }
+
+        .azul {
+            background-color: blue !important;
+            height: 355px;
+        }
+
+        .verde {
+            background-color: lawngreen !important;
+            height: 681px;
+        }
+
+        .rosa {
+            background-color: hotpink !important;
+            height: 480px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="container text-center">
+
+    <div class="row">
+        <div class="col-md-3 verde">
+            VERDE
+        </div>
+        <div class="col">
+             <div class="col-12 ciano">
+            CIANO
+        </div>
+        <div class="row noBorder">
+            <div class="col vermelho n">
+                Vermelho
+            </div>
+            <div class="col vermelho">
+                Vermelho
+            </div>
+            <div class="col-md-12 azul">
+                AZUL
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col noBorder">
+            <div class="row noBorder">
+                <div class="col-md-4 rosa">
+                    ROSA
+                </div>
+                <div class="col-md-4 rosa">
+                    ROSA
+                </div>
+                <div class="col-md-4 rosa">
+                    ROSA
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
